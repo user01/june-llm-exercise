@@ -1,0 +1,24 @@
+[project]
+name = "exercise"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "agno>=1.6.4",
+    "duckdb>=1.3.1",
+    "loguru>=0.7.3",
+    "ollama>=0.5.1",
+    "openai>=1.91.0",
+    "polars>=1.31.0",
+    "pyarrow>=20.0.0",
+    "pydantic>=2.11.7",
+    "streamlit>=1.46.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "jupyter>=1.1.1",
+    "ruff>=0.12.0",
+]
