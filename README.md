@@ -39,7 +39,7 @@ uv run streamlit run main.py
 
 The default browser will open (after accepting or rejecting streamlit terms) with the chat interface.
 
-![](data/screenshot.png)
+![](data/screenshot.jpeg)
 
 ## Dev
 
